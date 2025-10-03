@@ -1,0 +1,6 @@
+com\example\stt\service\VoskTranscriptionService.class
+com\example\stt\SttServiceApplication.class
+com\example\stt\controller\TranscriptionController.class
+com\example\stt\service\TranscriptionService.class
+com\example\stt\service\TranscriptionResult.class
+com\example\stt\config\VoskConfig.class
