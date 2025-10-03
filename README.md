@@ -165,27 +165,23 @@ Content-Type: multipart/form-data
 - **File Size Limit**: 1MB (configurable)
 
 ### Postman Setup for Speech-to-Text API
-To test your deployed Speech-to-Text API in **Postman**, follow these exact steps:
+To test your deployed Speech-to-Text API in Postman, follow these exact steps:
 ---
 **1. Method & URL**
-* **Method**: `POST`
-* **URL**:
-  ```
-  https://speechtotext-2sm4.onrender.com/api/transcribe
-  ```
+* **Method**: POST
+* **URL**: `https://speechtotext-2sm4.onrender.com/api/transcribe`
 ---
 **2. Request Body**
 * Go to **Body** → select **form-data**
 * Add a key/value pair:
-  * **Key**: `file` (must match what your controller expects)
-  * **Type**: `File`
+  * **Key**: file (must match what your controller expects)
+  * **Type**: File
   * **Value**: Upload a `.wav` file from your computer
 ---
 **3. Send Request**
 
 * Click **Send**
 * You should receive a JSON response with the transcription result.
----
 
 **Request:**
 ```
