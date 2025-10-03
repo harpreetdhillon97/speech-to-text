@@ -61,12 +61,9 @@ public class VoskTranscriptionService implements TranscriptionService {
       byte[] buffer = new byte[4096];
       int n;
       while ((n = ais.read(buffer)) >= 0) {
-        if (recognizer.acceptWaveForm(buffer, n)) {
-          // partial accepted
-        } else {
-          // partial
-        }
+        recognizer.acceptWaveForm(buffer, n);
       }
+
       String res = recognizer.getFinalResult();
       // result is JSON from Vosk like {"text":"..."}
       // For simplicity, return the raw JSON as transcript
