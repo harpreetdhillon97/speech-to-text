@@ -130,6 +130,7 @@ MultipartFile → Temp File → FFmpeg Conversion → Vosk Recognition → JSON 
 
 
 ## API Specification
+Note - Hit this url - https://speechtotext-2sm4.onrender.com/ first in any brower to wake up the service because it might go to sleep after the 15 minutes of inactivity.
 
 ### Health Check Endpoint
 
