@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This document outlines the design and implementation of an open-source Speech-to-Text (STT) service built for the ZoomInfo SE3 Take-Home assignment. The service provides HTTP API endpoints for converting audio files to text using the Vosk open-source speech recognition engine.
+This document outlines the design and implementation of an open-source Speech-to-Text (STT) service. The service provides HTTP API endpoints for converting audio files to text using the Vosk open-source speech recognition engine.
 
 ## Table of Contents
 
